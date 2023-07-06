@@ -75,8 +75,8 @@ def mouse_event(event, x, y, flags, param):
 
 
 if __name__ == '__main__':
-    filename = sys.argv[1]
-    # filename = r'D:\Projects\cell_contour\中文测试\1_1_RGB.tif'
+    # filename = sys.argv[1]
+    filename = r'example.tif'
     print(filename)
     # img = cv2.imread(filename)
     img = cv_imread(filename)
